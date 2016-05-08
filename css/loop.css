@@ -1,0 +1,322 @@
+.main{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+/*
+@keyframes action1{
+    0% {
+        position: absolute;
+        left: 0px;
+        top:0px;
+    }
+    25% {
+        position: absolute;
+        left: 350px;
+        top:0px; 
+    }
+    50% {
+        position: absolute; 
+        left: 350px;
+        top:350px; 
+    }
+    75% {
+        position: absolute; 
+        left: 0px;
+        top:350px; 
+    }
+    100% {
+        position: absolute; 
+        left: 0px;
+        top:0px; 
+    }
+}
+@keyframes action2{
+     0% {
+        position: absolute; 
+        left: 350px;
+        top:0px; 
+    }
+    25% {
+        position: absolute;
+        left: 350px;
+        top:350px;
+    }
+    50% {
+        position: absolute;
+        left: 0px;
+        top:350px; 
+    }
+    75% {
+        position: absolute; 
+        left: 0px;
+        top:0px; 
+    }
+    100% {
+        position: absolute; 
+        left: 350px;
+        top:0px; 
+    }
+   
+}
+@keyframes action3{
+     0% {
+        position: absolute; 
+        left: 350px;
+        top:350px; 
+    }
+    25% {
+        position: absolute; 
+        left: 0px;
+        top:350px; 
+    }
+    50% {
+        position: absolute;
+        left: 0px;
+        top:0px;
+    }
+    75% {
+        position: absolute;
+        left: 350px;
+        top:0px; 
+    }
+    100% {
+        position: absolute; 
+        left: 350px;
+        top:350px; 
+    }
+   
+}
+@keyframes action4{
+     0% {
+        position: absolute; 
+        left: 0px;
+        top:350px; 
+    }
+    25% {
+        position: absolute; 
+        left: 0px;
+        top:0px; 
+    }
+    50% {
+        position: absolute; 
+        left: 350px;
+        top:0px; 
+    }
+    
+    75% {
+        position: absolute;
+        left: 350px;
+        top:350px;
+    }
+    100% {
+        position: absolute;
+        left: 0px;
+        top:350px; 
+    }
+   
+}
+
+
+.first{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    animation: action1 5s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    animation: action2 5s infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+.third{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    animation: action3 5s infinite;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.fourth{
+    width: 50px;
+    height: 50px;
+    background-color: sienna;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    animation: action4 5s infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes action1{
+    0% {
+        position: absolute;
+        left: 0px;
+        top:0px;
+    }
+    100% {
+        position: absolute;
+        left: 350px;
+        top:0px; 
+    }
+   
+}
+@keyframes action2{
+     0% {
+        position: absolute; 
+        left: 350px;
+        top:0px; 
+    }
+    100% {
+        position: absolute;
+        left: 350px;
+        top:350px;
+    }
+    
+   
+}
+@keyframes action3{
+     0% {
+        position: absolute; 
+        left: 350px;
+        top:350px; 
+    }
+    100% {
+        position: absolute; 
+        left: 0px;
+        top:350px; 
+    }
+    
+   
+}
+@keyframes action4{
+     0% {
+        position: absolute; 
+        left: 0px;
+        top:350px; 
+    }
+    100% {
+        position: absolute; 
+        left: 0px;
+        top:0px; 
+    }
+   
+}
+
+.first{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    animation: action1 2s 1;
+    animation-fill-mode: forwards;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    animation: action2 2s 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+.third{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    animation: action3 2s 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+.fourth{
+    width: 50px;
+    height: 50px;
+    background-color: sienna;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    animation: action4 2s 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
